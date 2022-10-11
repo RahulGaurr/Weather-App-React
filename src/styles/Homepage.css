@@ -1,0 +1,153 @@
+.mainBox{
+    width: 50%;
+    margin: auto;
+    padding-right: 1%;
+    padding: 1%;
+    height: 70px;
+}
+.inpSearchBox{
+    width: 98%;
+    height: 50px;
+    border-radius: 2px;
+    font-size: 20px;
+    padding-left: 45px;
+}
+.logoinp{
+    display: flex;
+}
+.logo{
+    width: 3%;
+    height: 95%;
+    position: relative;
+    top: 15px;
+    left: 38px;
+    
+}
+
+.outputBox{
+    height: 400px;
+    width: 96.5%;
+    margin-left: 3%;
+    margin-top: 5px;
+    border-radius: 6px;
+    overflow-y: scroll;
+    backdrop-filter: blur(10px);
+    
+}
+
+.outputBox::-webkit-scrollbar {
+    display: none;
+}
+
+.cityBoxSingle{
+    border: 1px solid black;
+    height: 50px;
+    margin-top: 1px;
+    border-radius: 8px;
+}
+.cityBoxSingle:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+.city{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 500;
+}
+.state{
+    font-size: 15px;
+}
+.outWeatherBox{
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.singleweather{
+    
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 100%;
+    margin-left: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.singleweather:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+.cloudImg{
+    width: 70%;
+}
+.temp{
+    margin: 1px;
+}
+
+.modalBox{
+    /* background-color: blue; */
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(20px);
+    background-image: url(../images/clouds.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* <button  role="button">Button 38</button> */
+
+/* CSS */
+.button-38 {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 42%;
+  margin-top: 5%;
+}
+
+.button-38:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+  box-shadow: none;
+}
+
+#chartData{
+    /* width: 90%; */
+    /* height: 80%; */
+    margin: auto;
+}
+
+.mapGraphBox{
+    /* border: 1px solid black; */
+    display: flex;
+    /* height: 400px; */
+
+}
+
+.mapGraphBox > div{
+    flex: 1;
+    width: 100%;
+}
